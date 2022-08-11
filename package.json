@@ -1,0 +1,38 @@
+{
+	"name": "@stimulcross/repo-template",
+	"version": "0.0.1",
+	"description": "Basic template for repositories.",
+	"main": "none",
+	"repository": "git@github.com:StimulCross/repo-template.git",
+	"author": "Stimul Cross <stimulcross@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"lint": "eslint --ext js,ts src",
+		"prettier:check": "prettier --check .",
+		"prettier:fix": "prettier --write .",
+		"build": "tsukuru",
+		"rebuild": "tsukuru --clean",
+		"prepare": "husky install"
+	},
+	"devDependencies": {
+		"@stimulcross/eslint-config-node": "^1.0.2",
+		"@stimulcross/eslint-config-typescript": "^1.0.2",
+		"@stimulcross/prettier-config": "^1.0.1",
+		"@types/node": "^18.6.5",
+		"eslint": "^8.21.0",
+		"husky": "^8.0.1",
+		"lint-staged": "^13.0.3",
+		"prettier": "^2.7.1",
+		"tsukuru": "^0.8.0-pre.5",
+		"typescript": "4.6.3"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.{js,ts,css,json,md}": "prettier --write .",
+		"*.{js,ts}": "eslint --fix"
+	}
+}
