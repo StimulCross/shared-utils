@@ -19,3 +19,4 @@ export { sleep } from './functions/promise/sleep';
 
 export type { ResolvableValue } from './types/ResolvableValue';
 export { resolveValue } from './types/ResolvableValue';
+export type { Optional } from './types/Optional';
