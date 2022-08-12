@@ -13,6 +13,10 @@
 	"types": "lib",
 	"exports": {
 		".": {
+			"browser": {
+				"require": "./lib/index.js",
+				"import": "./es/index.mjs"
+			},
 			"require": "./lib/index.js",
 			"import": "./es/index.mjs",
 			"types": "./lib/index.d.ts"
@@ -50,5 +54,6 @@
 	"lint-staged": {
 		"*.{js,ts,css,json,md}": "prettier --write .",
 		"*.{js,ts}": "eslint --fix"
-	}
+	},
+	"dependencies": {}
 }

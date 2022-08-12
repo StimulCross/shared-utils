@@ -2,6 +2,7 @@ export { Enumerable, enumerable } from './decorators/Enumerable';
 export { NonEnumerable, nonenumerable } from './decorators/NonEnumerable';
 export { Writable, writable } from './decorators/Writable';
 export { ReadOnly, readonly } from './decorators/ReadOnly';
+export { PrintableGetters, printableGetters } from './decorators/PrintableGetters';
 
 export { CustomError } from './errors/CustomError';
 
