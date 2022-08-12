@@ -11,11 +11,8 @@ yalc.lock
 *.code-workspace
 /.idea
 /.vscode
-docs
-generatedDocs
-/packages/*/es
-/packages/*/lib
-/packages/*/docs.json
+es
+lib
 /docs*.json
 *.tsbuildinfo
 logs
