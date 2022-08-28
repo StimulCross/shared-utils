@@ -7,5 +7,9 @@ module.exports = {
 	root: true,
 	parserOptions: {
 		project: './tsconfig.json'
+	},
+	ignorePatterns: ['.eslintrc.js'],
+	rules: {
+		'@typescript-eslint/unified-signatures': 'off'
 	}
 };
