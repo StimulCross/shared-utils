@@ -32,23 +32,19 @@
 		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^17.1.1",
-		"@stimulcross/commitlint-config": "^1.2.2",
-		"@stimulcross/eslint-config-node": "^1.2.2",
-		"@stimulcross/eslint-config-typescript": "^1.2.2",
-		"@stimulcross/prettier-config": "^1.2.2",
-		"@types/jest": "^28.1.6",
-		"@types/node": "^18.7.1",
-		"eslint": "8.22.0",
+		"@commitlint/cli": "^17.1.2",
+		"@stimulcross/commitlint-config": "^1.3.0",
+		"@stimulcross/eslint-config-node": "^1.3.0",
+		"@stimulcross/eslint-config-typescript": "^1.3.0",
+		"@stimulcross/prettier-config": "^1.3.0",
+		"@types/node": "^18.11.4",
+		"eslint": "8.26.0",
 		"husky": "^8.0.1",
-		"jest": "^28.1.3",
 		"lint-staged": "^13.0.3",
 		"prettier": "^2.7.1",
-		"ts-jest": "^28.0.7",
 		"ts-node": "^10.9.1",
 		"tslib": "^2.4.0",
-		"tsukuru": "^0.8.0-pre.6",
+		"tsukuru": "^0.8.0-pre.7",
 		"typescript": "4.6.3"
-	},
-	"dependencies": {}
+	}
 }
