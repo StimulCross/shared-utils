@@ -5,7 +5,7 @@
 	},
 	"version": "0.2.2",
 	"description": "A set of shared utils for personal use.",
-	"repository": "git@github.com:StimulCross/repo-template.git",
+	"repository": "git@github.com:StimulCross/shared-utils.git",
 	"author": "Stimul Cross <stimulcross@gmail.com>",
 	"license": "MIT",
 	"main": "lib",
